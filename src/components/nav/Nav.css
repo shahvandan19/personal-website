@@ -1,0 +1,57 @@
+/* General Header Styling */
+.Nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 30px;
+    background-color: transparent;
+    box-shadow: none;
+    position: fixed; /* Changed from sticky to fixed */
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+  
+  /* Remove Logo Styling */
+  .nav-logo {
+    display: none; /* Hides the logo */
+  }
+  
+  /* Navigation Menu */
+  .nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+  }
+  
+  .nav-menu li {
+    position: relative;
+  }
+  
+  .nav-menu li a {
+    text-decoration: none;
+    color: #bebebe; /* Subtle font color */
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-menu li a:hover,
+  .nav-menu li a.active {
+    color: #ffffff; /* Highlight active or hovered menu */
+    font-weight: bold;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .Nav {
+      flex-direction: column;
+      align-items: flex-start; /* Align to the left for smaller screens */
+    }
+  
+    .nav-menu {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  

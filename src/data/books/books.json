@@ -1,0 +1,63 @@
+[
+    {
+      "title": "Outliers",
+      "author": "Malcolm Gladwell",
+      "year": 1925,
+      "genre": "Fiction"
+    },
+    {
+      "title": "David and Goliath",
+      "author": "Malcolm Gladwell",
+      "year": 1949,
+      "genre": "Dystopian"
+    },
+    {
+      "title": "Undocumented",
+      "author": "Dan-el Padilla Peralta",
+      "year": 1960,
+      "genre": "Fiction"
+    },
+    {
+      "title": "Thinking Fast and Slow",
+      "author": "Daniel Kahneman",
+      "year": 1813,
+      "genre": "Romance"
+    },
+    {
+      "title": "The Art of THinking Clearly",
+      "author": "Rolf Dobelli",
+      "year": 1851,
+      "genre": "Adventure"
+    },
+    {
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "year": 1951,
+      "genre": "Fiction"
+    },
+    {
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "year": 1937,
+      "genre": "Fantasy"
+    },
+    {
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "year": 1932,
+      "genre": "Dystopian"
+    },
+    {
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "year": 1869,
+      "genre": "Historical Fiction"
+    },
+    {
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "year": 1988,
+      "genre": "Adventure"
+    }
+  ]
+  

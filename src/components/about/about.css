@@ -1,0 +1,100 @@
+/* General Styles */
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-title h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: white;
+}
+
+.section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.about{
+  padding: 60px 20px;
+}
+
+/* About Me Section */
+.about-section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  color: #d8d8d8; /* Softer text color for better contrast */
+  margin-top: 80px; /* Adds margin space to align with other sections */
+}
+
+.about-title {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.about-title h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: white;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-left img {
+  width: 400px;
+  height: auto;
+  border-radius: 5%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.about-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 700px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #c7c7c7;
+}
+
+.about-right blockquote {
+  font-size: 18px;
+  font-style: italic;
+  color: #aaaaaa;
+  border-left: 4px solid #555;
+  padding-left: 12px;
+}
+
+.languages-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.language-item {
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #f0f0f0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.language-item:hover {
+  transform: scale(1.1);
+  background-color: #555;
+}

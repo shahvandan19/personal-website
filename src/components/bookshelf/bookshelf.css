@@ -1,0 +1,137 @@
+.bookshelf {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .bookshelf-title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .bookshelf-title h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 16px;
+  }
+  
+  .bookshelf-title h2 {
+    font-size: 18px;
+    color: #bebebe;
+    font-weight: normal;
+  }
+  
+  .book-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    padding: 20px 0;
+  }
+  
+  .book-item {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .book-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .book-cover {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  
+  .book-details {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .book-item h3 {
+    font-size: 20px;
+    margin: 0;
+    line-height: 1.4;
+  }
+  
+  .book-item h4 {
+    font-size: 16px;
+    color: #bebebe;
+    margin: 0;
+    font-weight: normal;
+  }
+  
+  .book-rating {
+    font-size: 14px;
+    color: #ffd700;
+    margin-top: 4px;
+  }
+  
+  .book-review {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #e0e0e0;
+    margin: 0;
+  }
+  
+  .view-more-container {
+    display: flex; /* Enables flexbox for centering */
+    justify-content: center; /* Horizontally centers the content */
+    align-items: center; /* Vertically centers the content (if needed) */
+    width: 100%; /* Ensure it takes full width of its parent */
+    margin-top: 40px; /* Maintain spacing above the button */
+  }
+
+
+  .view-more-button {
+    transform: translateX(400px); /* Move it 20px to the right */
+    padding: 15px 30px; /* Adjust padding for a consistent button size */
+    border-radius: 5px; /* Slight rounding for a modern look */
+    border: 2px solid #b415ff; /* Ensure border styling matches theme */
+    cursor: pointer; /* Pointer cursor for better UX */
+    font-size: 16px; /* Adjust font size for readability */
+    font-weight: 600; /* Slightly bolder font-weight */
+    color: #fff; /* Text color */
+    background-color: #b415ff; /* Button background color */
+    transition: background-color 0.3s, color 0.3s; /* Smooth hover effect */
+  }
+  
+  
+  .view-more-button:hover {
+    background-color: transparent;
+    color: #b415ff;
+  }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+        .bookshelf {
+          padding: 40px 16px;
+        }
+      
+        .book-content {
+          grid-template-columns: 1fr;
+        }
+      
+        .book-item {
+          padding: 16px;
+        }
+      
+        .book-cover {
+          height: 250px;
+        }
+        .view-more-container {
+          margin-top: 20px;
+        }
+      }
+
