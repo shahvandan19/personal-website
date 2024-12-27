@@ -25,11 +25,11 @@ const Nav = () => {
               Experience
             </AnchorLink>
           </li>
-          <li>
+          {/* <li>
             <AnchorLink href="#projects" onClick={() => setMenu('projects')} className={menu === 'projects' ? 'active' : ''}>
               Projects
             </AnchorLink>
-          </li>
+          </li> */}
           <li>
             <AnchorLink href="#bookshelf" onClick={() => setMenu('bookshelf')} className={menu === 'bookshelf' ? 'active' : ''}>
               Bookshelf

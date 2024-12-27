@@ -3,7 +3,7 @@ import './about.css';
 import headshot_img from '../../data/Headshot.jpg';
 
 const About = () => {
-  const languages = ['C++', 'Python', 'JavaScript', 'React', 'SQL', 'Flask'];
+  const languages = ['C++', 'Python', 'JavaScript', 'SQL', 'Tensorflow', 'Git', 'AWS'];
 
   return (
     <div id='about_me' className="about-section">
